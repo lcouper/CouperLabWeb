@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://couperlab.com"
 baseurl: ""
 twitter_username:  
-github_username:  
+github_username:  lcouper
 minimal_mistakes_skin: dirt
 search: true
 
