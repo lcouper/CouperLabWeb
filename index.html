@@ -8,10 +8,60 @@ header:
   overlay_filter: 0.2
 ---
 
-<section class="page__content">
+<style>
+  .home-section {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .research-intro {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 900px;
+    margin-bottom: 2rem;
+  }
+
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .research-card {
+    padding: 1.4rem;
+    border-radius: 14px;
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+
+  .research-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-size: 1.15rem;
+  }
+
+  .research-card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+
+  .press-list {
+    max-width: 850px;
+    line-height: 1.65;
+  }
+
+  .press-list li {
+    margin-bottom: 0.75rem;
+  }
+</style>
+
+<section class="home-section">
   <h2>Our research scope</h2>
 
-  <p>
+  <p class="research-intro">
     Global change is transforming the landscape of infectious diseases, 
     from the poleward expansion of vector-borne disease to the spillover of novel human pathogens 
     from animal reservoirs. Our group studies the ecological and evolutionary responses of infectious disease systems to global change, 
@@ -21,53 +71,61 @@ header:
     advance strategies to protect both human and planetary health.
   </p>
 
- <h5>Quantifying impacts</h5><br>
-The transmission of vector-borne and zoonotic diseases is fundamentally linked to environmental
-conditions. Yet isolating the impact of specific environmental drivers as infectious diseaes exist across complex, dynamic socio-ecological settings. 
-We leverage analytical approaches for causal inference in complex systems, often borrowing approaches from econometrics and epidemiology, 
-to isolate and quantify the impact of specific global change drivers of transmission. 
-  Recent examples include 
-  <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.15435?casa_token=FKmyUTN4DYgAAAAA%3Am5dRFVhPt232qhcvXXy5FHfI8JNtDupd84gUuEenPsqdmUhngX2WkUMaVRlo6FX50bhT-6Cwio4yqN-ehw">warming and Lyme disease in the US</a>
-  and 
-  <a href="https://www.medrxiv.org/content/10.1101/2025.09.19.25336198v1">oil and gas development and Valley fever in California</a>.
-<br><br>
-<h5>Emergence</hr><br>
-Aided by rapid global changes, diseaes such as dengue and Valley fever have emerged in recent decades. 
-<br><br>
-  
-<h5>Dispersal and invasion</hr><br>
-Aedes aegypti and Ae. albopictus are two of the most globally important invasive mosquito
-vectors that transmit dengue, Zika, and other viruses. These species have rapidly expanded
-within the U.S. in recent decades, including recent detections of Ae. albopictus in Michigan.
-However, the processes underlying their dispersal and expansion are poorly understood, as the
-putative drivers—climate, land use change, and human movement—occur over vastly different
-temporal and spatial scales. 
-<br><br>
-<h5>Eco-evolutionary responses</hr><br>
-Climate change is poised to cause massive changes in vector-borne disease distributions, with predicted expansions at cool-range edges and contractions at warm-range edges.
-However, the potential for vectors to <i>adapt</i> to warming--and therefore persist at warm edges--remains largely unknown as their evolutionary potential is poorly understood. 
-We use field surveys, experimentaiton, and genomic analysis to investigate adaptive potential. 
-In recent work, we found evidence of 
-    <a href="https://royalsocietypublishing.org/rspb/article/291/2015/20232457/104445/Mosquito-thermal-tolerance-is-remarkably">current thermal adaptation in mosquitoes</a>,
-  potential for 
-    <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2418199122"> adaptive evolution on pace with warming</a>,
-  and modeled
-    <a href="https://elifesciences.org/articles/69630">impacts of adaptation on disease incidence.</a>
-<br><br><br>
-  
+  <div class="research-grid">
+    <div class="research-card">
+      <h3>Quantifying impacts</h3>
+      <p>
+        The transmission of vector-borne and zoonotic diseases is fundamentally linked to environmental
+        conditions. We leverage analytical approaches for causal inference in complex systems, often borrowing 
+        approaches from econometrics and epidemiology, to isolate and quantify the impact of specific global 
+        change drivers of transmission.
+      </p>
+    </div>
 
+    <div class="research-card">
+      <h3>Emergence</h3>
+      <p>
+        Aided by rapid global changes, diseases such as dengue and Valley fever have emerged in recent decades.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>Dispersal and invasion</h3>
+      <p>
+        Aedes aegypti and Ae. albopictus are two of the most globally important invasive mosquito vectors. 
+        We study the processes underlying their dispersal and expansion across complex environmental and 
+        human landscapes.
+      </p>
+    </div>
+
+    <div class="research-card">
+      <h3>Eco-evolutionary responses</h3>
+      <p>
+        Climate change is poised to cause massive changes in vector-borne disease distributions. We use field surveys, 
+        experimentation, and genomic analysis to investigate the potential for vectors and pathogens to adapt to 
+        environmental change.
+      </p>
+    </div>
+  </div>
 </section>
 
-<section class="page__content">
+<section class="home-section">
   <h2>Press/News</h2>
 
-Lisa interviewed by <i>Berkeley News</i> on <a href="https://news.berkeley.edu/2026/06/09/as-california-warms-cases-of-dengue-fever-are-expected-to-grow/">locally-acquired dengue in California</a><br><br>
+  <ul class="press-list">
+    <li>
+      Lisa interviewed by <em>Berkeley News</em> on 
+      <a href="https://news.berkeley.edu/2026/06/09/as-california-warms-cases-of-dengue-fever-are-expected-to-grow/">locally-acquired dengue in California</a>
+    </li>
 
-- The <i>Los Angeles Times</i> discusses our work in the context of <a href="https://www.latimes.com/environment/story/2026-06-04/how-googles-32-million-mosquito-project-could-change-californias-battle-against-dengue?shem=rimspwouoe/"><i>Aedes aegypti</i> control in California</a><br><br>
+    <li>
+      The <em>Los Angeles Times</em> discusses our work in the context of 
+      <a href="https://www.latimes.com/environment/story/2026-06-04/how-googles-32-million-mosquito-project-could-change-californias-battle-against-dengue?shem=rimspwouoe/">Aedes aegypti control in California</a>
+    </li>
 
-- The <i>San Francisco Chronicle</i> discussed our work in the context of <a href="https://www.sfchronicle.com/science/article/chikungunya-virus-california-risk-20809578.php/">the potential for Chikungunya in California</a><br><br>
-
-- The <i>San Francisco Chronicle</i> reports on our work on <a href="https://www.sfchronicle.com/health/article/climate-change-pushing-valley-fever-northward-18277182.php/">climate change and Valley fever spread in California</a><br><br>
-  <p>
-  </p>
+    <li>
+      The <em>San Francisco Chronicle</em> discussed our work in the context of 
+      <a href="https://www.sfchronicle.com/science/article/chikungunya-virus-california-risk-20809578.php/">the potential for chikungunya in California</a>
+    </li>
+  </ul>
 </section>
