@@ -23,6 +23,8 @@ twitter_username:
 github_username:  lcouper
 minimal_mistakes_skin: dirt
 search: true
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
