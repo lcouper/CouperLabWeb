@@ -134,6 +134,66 @@ header:
   .press-list li {
     margin-bottom: 0.75rem;
   }
+
+  
+  .press-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 2.25rem;
+    align-items: start;
+  }
+
+  .press-grid .press-list {
+    margin-top: 0;
+  }
+
+  .press-feature {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    overflow: hidden;
+  }
+
+  .press-feature img {
+    width: 100%;
+    display: block;
+  }
+
+  .press-feature-source {
+    display: block;
+    padding: 0.7rem 0.9rem 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #666;
+  }
+
+  .press-feature-title {
+    display: block;
+    padding: 0.3rem 0.9rem 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .press-feature:hover .press-feature-title {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 700px) {
+    .press-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .press-feature {
+      max-width: 260px;
+      margin: 0 auto;
+    }
+  }
 </style>
 
 <section class="home-section">
@@ -236,63 +296,3 @@ Student Research Assistantships.
   </div>
 </section>
 
-Add these rules to the style block, right after the existing .press-list li rule:
-
-  .press-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 260px;
-    gap: 2.25rem;
-    align-items: start;
-  }
-
-  .press-grid .press-list {
-    margin-top: 0;
-  }
-
-  .press-feature {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    border-radius: 12px;
-    background: #f7f7f7;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    overflow: hidden;
-  }
-
-  .press-feature img {
-    width: 100%;
-    display: block;
-  }
-
-  .press-feature-source {
-    display: block;
-    padding: 0.7rem 0.9rem 0;
-    font-size: 0.75rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #666;
-  }
-
-  .press-feature-title {
-    display: block;
-    padding: 0.3rem 0.9rem 0.9rem;
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.4;
-  }
-
-  .press-feature:hover .press-feature-title {
-    text-decoration: underline;
-  }
-
-  @media (max-width: 700px) {
-    .press-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .press-feature {
-      max-width: 260px;
-      margin: 0 auto;
-    }
-  }
