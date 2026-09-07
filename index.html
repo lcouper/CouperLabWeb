@@ -169,7 +169,7 @@ environmentally-mediated pathogens. Work in the lab uses a combi
 
     <ul class="join-list">
       <li>
-        Developing research projects will typically be a collaboave many ideas you’re excited about pursuing, as do I. Letsexplore the intersections!
+        Developing research projects will typically be a collaboave many ideas you’re excited about pursuing, as do I. Lets explore the intersections!
       </li>
       <li>
         Prospective grad students can <a href="https://lsa.umich.edu/eeb/graduates/prospective-students/eeb-application-information.html">apply through the EEB Department</a>. EEB offers students 5 years of guaranteed funding. This includes a mix of fellowships, Graduate Student Instructorships, and Graduate
@@ -195,36 +195,104 @@ Student Research Assistantships.
 <section class="home-section">
   <h2>Press/News</h2>
 
-  <ul class="press-list">
-  <li>
-     The <em>LA Times</em> covers our work on 
-          <a href="https://www.leonetwork.org/en/posts/show/E6208475-9D4E-4296-96D6-5E94502FFA28">vector-borne disease in California</a> under environmental change
-    </li>
-    
-    <li>
-      Lisa speaks with the LEO Network in Alaska about mosquito-borne disease in a changing world.
-      <a href="https://www.leonetwork.org/en/posts/show/E6208475-9D4E-4296-96D6-5E94502FFA28">Webinar link here</a>
-    </li>
+  <div class="press-grid">
+    <ul class="press-list">
+      <li>
+        The <em>LA Times</em> covers our work on
+        <a href="https://www.latimes.com/science/story/2026-08-16/insects-ticks-coming-for-us">vector-borne disease in California</a> under environmental change
+      </li>
 
-    <li>
-      <em>Berkeley News</em> covers our work on
-      <a href="https://news.berkeley.edu/2026/06/09/as-californiver-are-expected-to-grow/">locally-acquired dengue inCalifornia</a>
-    </li>
+      <li>
+        Lisa speaks with the LEO Network in Alaska about mosquito-borne disease in a changing world.
+        <a href="https://www.leonetwork.org/en/posts/show/E6208475-9D4E-4296-96D6-5E94502FFA28">Webinar link here</a>
+      </li>
 
-    <li>
-      The <em>LA Times</em> discusses our work in the context of
-      <a href="https://www.latimes.com/environment/story/2026-06-04/how-googles-32-million-mosquito-project-could-change-californias-battle-against-dengue?shem=rimspwouoe/"><i>Aedes aegypti</i> control in California</a>
-    </li>
+      <li>
+        <em>Berkeley News</em> covers our work on
+        <a href="https://news.berkeley.edu/2026/06/09/as-california-warms-cases-of-dengue-fever-are-expected-to-grow/">locally-acquired dengue in California</a>
+      </li>
 
-    <li>
-      The <em>San Francisco Chronicle</em> discusses our work in the context of
-      <a href="https://www.sfchronicle.com/science/article/chikungunya-virus-california-risk-20809578.php/">the potential for chikungunya in California</a>
-    </li>
+      <li>
+        The <em>LA Times</em> discusses our work in the context of
+        <a href="https://www.latimes.com/environment/story/2026-06-04/how-googles-32-million-mosquito-project-could-change-californias-battle-against-dengue?shem=rimspwouoe/"><i>Aedes aegypti</i> control in California</a>
+      </li>
 
-    <li>
-      The <em>San Francisco Chronicle</em> reports on our work on
-      <a href="https://www.sfchronicle.com/health/article/climate-change-pushing-valley-fever-northward-18277182.php/">climate change and Valley fever emergence in California</a>
-    </li>
+      <li>
+        The <em>San Francisco Chronicle</em> discusses our work in the context of
+        <a href="https://www.sfchronicle.com/science/article/chikungunya-virus-california-risk-20809578.php/">the potential for chikungunya in California</a>
+      </li>
 
-  </ul>
+      <li>
+        The <em>San Francisco Chronicle</em> reports on our work on
+        <a href="https://www.sfchronicle.com/health/article/climate-change-pushing-valley-fever-northward-18277182.php/">climate change and Valley fever emergence in California</a>
+      </li>
+    </ul>
+
+    <a class="press-feature" href="https://www.latimes.com/science/story/2026-08-16/insects-ticks-coming-for-us">
+      <img src="/assets/images/press-latimes-2026-08.jpg" alt="Close-up of a mosquito on skin">
+      <span class="press-feature-source">Los Angeles Times · Aug 2026</span>
+      <span class="press-feature-title">Are mosquitoes, ticks and fleas turning California into a disease hotspot?</span>
+    </a>
+  </div>
 </section>
+
+Add these rules to the style block, right after the existing .press-list li rule:
+
+  .press-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 2.25rem;
+    align-items: start;
+  }
+
+  .press-grid .press-list {
+    margin-top: 0;
+  }
+
+  .press-feature {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    overflow: hidden;
+  }
+
+  .press-feature img {
+    width: 100%;
+    display: block;
+  }
+
+  .press-feature-source {
+    display: block;
+    padding: 0.7rem 0.9rem 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #666;
+  }
+
+  .press-feature-title {
+    display: block;
+    padding: 0.3rem 0.9rem 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .press-feature:hover .press-feature-title {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 700px) {
+    .press-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .press-feature {
+      max-width: 260px;
+      margin: 0 auto;
+    }
+  }
