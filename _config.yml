@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Couper Lab
+masthead_title: " "
 email: lisabelcouper@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   We study the impacts of global change on the ecology and evolution of infectious diseases.
