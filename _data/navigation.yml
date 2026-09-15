@@ -1,5 +1,7 @@
- main:
+main:
   - title: "Home"
     url: /
+  - title: "Joining the lab"
+    url: /join/
   - title: "Tutorials"
     url: /tutorials/
