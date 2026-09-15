@@ -54,7 +54,7 @@ author_profile: false
 
   <div class="tutorial-text">
     <p>
-      I care deeply about expanding educational and research opportunities to a wider audience. Please see below for some analysis tutorials I've put together to share analytical approaches commonly used in ecology, evolution, and epidemiology, as well as the full materials for an introductory R 
+      I care deeply about expanding educational and research opportunities to a wider audience. Please see below for some analysis tutorials I've put together to share analytical approaches commonly used in ecology, evolution, and epidemiology.
     <p>
       Please feel free to contact me with any questions or feedback about these materials!
     </p>
@@ -84,7 +84,7 @@ author_profile: false
     <h3>Statistical Programming for Biology: Introduction to R</h3>
 
     <p>
-      Course materials coming soon.
+I have also put together an Introductory R Programming course, geared towards learning R for biological applications. This course was offered at SFSU in 2018 and Foothill College in 2022. All course materials remain freely available [here](https://github.com/lcouper/RprogrammingCourse) 
     </p>
   </div>
 </section>
