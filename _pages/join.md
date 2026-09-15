@@ -1,4 +1,17 @@
+---
+title: "Joining the lab"
+permalink: /join/
+layout: splash
+author_profile: false
+---
+
 <style>
+  .home-section {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
   .join-text {
     font-size: 1.05rem;
     line-height: 1.7;
@@ -25,11 +38,10 @@
 
     <ul class="join-list">
       <li>
-        Developing research projects will typically be a collaborative process. You likely have many ideas you’re excited about pursuing, as do I. Lets explore the intersections!
+        Developing research projects will typically be a collaborative process. You likely have many ideas you’re excited about pursuing, as do I. Let's explore the intersections!
       </li>
       <li>
-        Prospective grad students can <a href="https://lsa.umich.edu/eeb/graduates/prospective-students/eeb-application-information.html">apply through the EEB Department</a>. EEB offers students 5 years of guaranteed funding. This includes a mix of fellowships, Graduate Student Instructorships, and Graduate
-Student Research Assistantships.
+        Prospective grad students can <a href="https://lsa.umich.edu/eeb/graduates/prospective-students/eeb-application-information.html">apply through the EEB Department</a>. EEB offers students 5 years of guaranteed funding. This includes a mix of fellowships, Graduate Student Instructorships, and Graduate Student Research Assistantships.
       </li>
       <li>
         Prospective postdocs will be funded through lab grants, internal fellowships (eg <a href="https://seas.umich.edu/globalchangebiology/postdoc-opportunities">ICGB Postdoctoral Fellowship</a>) and external fellowships.
@@ -41,6 +53,17 @@ Student Research Assistantships.
         In-person participation is highly valued. We can discuss remote opportunities if needed, but it is not my preference at this time.
       </li>
       <li>
+        Regardless of your career stage, you are not expected to enter the lab “knowing” the skills and universe of literature on your topic(s) of interest. That is the point of pre- or post-doctoral training! Of course, prior research experience will help in identifying questions of interest and getting off the ground quicker.
+      </li>
+    </ul>
+  </div>
+</section>
+
+_pages/tutorials.md
+
+Written in HTML rather than markdown so it uses the same classes and spacing as the other pages. The two subsection headings are <h3> so they sit one level below the page's <h2>, matching the hierarchy on the home page.
+
+---
         Regardless of your career stage, you are not expected to enter the lab “knowing” the skills and universe of literature on your topic(s) of interest. That is the point of pre- or post-doctoral training! Of course, prior research experience will help in identifying questions of interest and getting off the ground quicker.
       </li>
     </ul>
