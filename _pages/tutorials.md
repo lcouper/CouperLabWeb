@@ -84,7 +84,6 @@ author_profile: false
     <h3>Statistical Programming for Biology: Introduction to R</h3>
 
     <p>
-I have also put together an Introductory R Programming course, geared towards learning R for biological applications. This course was offered at SFSU in 2018 and Foothill College in 2022. All course materials remain freely available [here](https://github.com/lcouper/RprogrammingCourse) 
+I have also put together an Introductory R Programming course, geared towards learning R for biological applications. This course was offered at SFSU in 2018 and Foothill College in 2022. All course materials remain freely available [here](https://github.com/lcouper/RprogrammingCourse). 
     </p>
-  </div>
-</section>
+
