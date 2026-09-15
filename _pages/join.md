@@ -47,7 +47,7 @@ author_profile: false
         Prospective postdocs will be funded through lab grants, internal fellowships (eg <a href="https://seas.umich.edu/globalchangebiology/postdoc-opportunities">ICGB Postdoctoral Fellowship</a>) and external fellowships.
       </li>
       <li>
-        PhD students and postdocs will also be encouraged to apply for external fellowships (eg NSF GRFB/PRFB, NIH F31/F32, CDC training grants, etc) as this is a useful skill to develop.
+        PhD students and postdocs will be encouraged to apply for external fellowships (eg NSF GRFB/PRFB, NIH F31/F32, CDC training grants, etc) as this is a useful skill to develop.
       </li>
       <li>
         In-person participation is highly valued. We can discuss remote opportunities if needed, but it is not my preference at this time.
