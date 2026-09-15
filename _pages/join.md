@@ -58,14 +58,3 @@ author_profile: false
     </ul>
   </div>
 </section>
-
-_pages/tutorials.md
-
-Written in HTML rather than markdown so it uses the same classes and spacing as the other pages. The two subsection headings are <h3> so they sit one level below the page's <h2>, matching the hierarchy on the home page.
-
----
-        Regardless of your career stage, you are not expected to enter the lab “knowing” the skills and universe of literature on your topic(s) of interest. That is the point of pre- or post-doctoral training! Of course, prior research experience will help in identifying questions of interest and getting off the ground quicker.
-      </li>
-    </ul>
-  </div>
-</section>
